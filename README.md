@@ -37,23 +37,23 @@
       * 2 curves: 1 for the front of the vehicle (name should contain "front") and 1 for the back (name should contain "back")
    2. Click your "C-Rig" shelf button
    3. 4 locators will be created:
-      * <span style="color:blue"><b>vehicle_controller</b></span>: Move and key this locator to control the position along the curve.
-      * <span style="color:red"><b>vehicle_front</b></span>: Will be attached to the front of the vehicle. Controlled by vehicle_controller.
-      * <span style="color:green"><b>vehicle_back</b></span>: Will be attached to the back of the vehicle. Controlled by vehicle_controller.
-      * <span style="color:yellow"><b>back_locator</b></span>: Don't mess with this unless you know what you're doing. Helps calculate the position of vehicle_back.
+      * <b>vehicle_controller</b> (Blue): Move and key this locator to control the position along the curve.
+      * <b>vehicle_front</b> (Red): Will be attached to the front of the vehicle. Controlled by vehicle_controller.
+      * <b>vehicle_back</b> (Green): Will be attached to the back of the vehicle. Controlled by vehicle_controller.
+      * <b>back_locator</b> (Yellow): Don't mess with this unless you know what you're doing. Helps calculate the position of vehicle_back.
    4. In addition, the original curve(s) will be recolored accordingly:
-      * <span style="color:red"><b>Front</b></span>
-      * <span style="color:green"><b>Back</b></span>
+      * <b>Front</b>: Red
+      * <b>Back</b>: Green
 2. T-Rig: attaches a vehicle to the locators
    1. Make sure your vehicle is contained in a group and that the group's pivot is located on "the ground" between the front wheels
    2. Select all of the following:
-      * <span style="color:red"><b>vehicle_front</b></span>
-      * <span style="color:green"><b>vehicle_back</b></span>
+      * vehicle_front
+      * vehicle_back
       * Group containing the vehicle
    3. Click your "T-Rig" shelf button
-   4. The vehicle will be attached to the locators. You can move the <span style="color:blue"><b>vehicle_controller</b></span> to move the vehicle.
+   4. The vehicle will be attached to the locators. You can move the <b>vehicle_controller</b> to move the vehicle.
       * NOTE: If the vehicle's rotation is incorrect, change the Aim Vector of the aim constraint:
-         1. Under <span style="color:red"><b>vehicle_front</b></span>, select it's aim constraint
+         1. Under <b>vehicle_front</b>, select it's aim constraint
          2. Open the Attribute Editor to Aim Constraint Attributes
          3. Edit the aim vector so that the vehicle rotates in the correct direction
 
