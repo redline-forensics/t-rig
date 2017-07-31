@@ -44,6 +44,7 @@
    4. In addition, the original curve(s) will be recolored accordingly:
       * <b>Front</b>: Red
       * <b>Back</b>: Green
+   5. Change the vehicle length by selecting the <b>vehicle_controller</b> and changing the "Vehicle Length" attribute in either the Channel Box or the Attribute Editor under Extra Attributes
 2. T-Rig: attaches a vehicle to the locators
    1. Make sure your vehicle is contained in a group and that the group's pivot is located on "the ground" between the front wheels
    2. Select all of the following:
